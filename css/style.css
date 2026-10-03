@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    padding: 20px;
+}
+a {
+    color: green;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color .2s;      
+}
+a:hover {
+    text-decoration: underline; 
+}
+a:visited {
+    color: green;
+}
+p {
+    color: blue;
+    transition: color .2s;
+}
+p:hover {
+    color: red;
+    background-color: yellow;
+}
+p::first-letter {
+    font-size: 1.6em;
+    color: darkorange;
+}
+a::before {
+    content: "$ ";
+    font-size: 0.9em;
+}
+p:first-of-type {
+    border-left: 50px solid pink;
+}
+
